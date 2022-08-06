@@ -1,0 +1,10 @@
+com\jack\base\BaseServiceImpl.class
+com\jack\base\BaseDao.class
+com\jack\base\BaseController.class
+com\jack\result\ResultCodeEnum.class
+com\jack\util\MD5.class
+com\jack\util\WebUtil.class
+com\jack\util\QiniuUtils.class
+com\jack\result\Result.class
+com\jack\base\BaseService.class
+com\jack\util\CastUtil.class
