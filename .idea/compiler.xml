@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbodemo_interface" />
+        <module name="common-util" />
+        <module name="model" />
+        <module name="dubbodemo_provider" />
+        <module name="dubbodemo_consumer" />
+        <module name="web-admin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
