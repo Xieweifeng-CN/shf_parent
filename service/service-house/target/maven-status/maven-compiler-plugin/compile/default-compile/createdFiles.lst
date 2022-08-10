@@ -1,0 +1,12 @@
+com\jack\service\impl\CommunityServiceImpl.class
+com\jack\service\impl\HouseImageServiceImpl.class
+com\jack\dao\DictDao.class
+com\jack\dao\HouseBrokerDao.class
+com\jack\dao\HouseImageDao.class
+com\jack\service\impl\HouseBrokerServiceImpl.class
+com\jack\service\impl\HouseUserServiceImpl.class
+com\jack\dao\HouseUserDao.class
+com\jack\service\impl\HouseServiceImpl.class
+com\jack\service\impl\DictServiceImpl.class
+com\jack\dao\HouseDao.class
+com\jack\dao\CommunityDao.class

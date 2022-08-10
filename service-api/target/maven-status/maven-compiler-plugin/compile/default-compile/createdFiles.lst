@@ -1,0 +1,8 @@
+com\jack\service\HouseBrokerService.class
+com\jack\service\CommunityService.class
+com\jack\service\HouseImageService.class
+com\jack\service\HouseService.class
+com\jack\service\HouseUserService.class
+com\jack\service\AdminService.class
+com\jack\service\RoleService.class
+com\jack\service\DictService.class

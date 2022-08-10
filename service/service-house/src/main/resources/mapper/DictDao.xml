@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jack.dao.DictDao">
+    <!--String getNameById(Long id);-->
+    <select id="getNameById" resultType="String">
+        select name from hse_dict where id=#{id}
+    </select>
+
+    <!--Dict getByDictCode(String dictCode);-->
+    <select id="getByDictCode" resultType="com.jack.entity.Dict">
+        select * from hse_dict where dict_code=#{dictCode}
+    </select>
+
+    <!--List<Dict> findListByParentId(Long id);-->
+    <select id="findListByParentId" resultType="com.jack.entity.Dict">
+        select * from hse_dict where parent_id=#{parentId}
+    </select>
+
+    <!--Integer isParentNode(Long id);-->
+    <select id="isParentNode" resultType="integer">
+        select count(*) from hse_dict where parent_id=#{id}
+    </select>
+</mapper>

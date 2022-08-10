@@ -10,10 +10,11 @@
     <modules>
         <module>common-util</module>
         <module>model</module>
-        <module>web-admin</module>
-        <module>dubbodemo_provider</module>
-        <module>dubbodemo_consumer</module>
-        <module>dubbodemo_interface</module>
+        <module>service-api</module>
+        <module>service</module>
+        <module>service/service-acl</module>
+        <module>web</module>
+        <module>service/service-house</module>
     </modules>
 
     <!--父工程的打包方式需要是pom-->

@@ -21,9 +21,9 @@ import java.io.InputStream;
  */
 public class QiniuUtils {
 
-    public  static String accessKey = "BrrMVEQCE6ijrnHX-gGDVVk3e0vY8mAQQEyB_Zzq";
-    public  static String secretKey = "uaJNMOUGSkZqb3xce-gv4Y-2f0f5_X5VQO-v4lL0";
-    public  static String bucket = "meinian888";
+    public  static String accessKey = "p2z11pYBxwQ5lguifcmtv0rBmhsZjqsSgTXYduJp";
+    public  static String secretKey = "LoRJ5tH1wa4Otakf_hsvV_S6Tri8H7UaQPIsCzBp";
+    public  static String bucket = "jack-shf";
 
     public static void upload2Qiniu(String filePath,String fileName){
         //构造一个带指定Zone对象的配置类
