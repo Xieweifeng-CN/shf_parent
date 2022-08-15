@@ -21,7 +21,7 @@
     <import resource="spring-registry.xml"/>
 
     <!--包扫描-->
-    <context:component-scan base-package="com.jack.controller" />
+    <context:component-scan base-package="com.jack" />
 
     <!-- 没有匹配上的url全部按默认方式（就是直接访问）访问，避免拦截静态资源 -->
     <mvc:default-servlet-handler/>
@@ -57,6 +57,7 @@
         LEGACYHTML5：表示宽松模式-->
         <property name="templateMode" value="LEGACYHTML5"></property>
     </bean>
+
     <!--配置Thymeleaf作为springMVC视图解析器-->
     <bean id="viewResolver" class="org.thymeleaf.spring5.view.ThymeleafViewResolver">
         <!--设置编码格式-->
@@ -64,10 +65,17 @@
         <!--设置模板引擎-->
         <property name="templateEngine" ref="templateEngine"/>
     </bean>
+
     <!--配置模板引擎-->
     <bean id="templateEngine" class="org.thymeleaf.spring5.SpringTemplateEngine">
         <!--引用视图解析器配置-->
         <property name="templateResolver" ref="templateResolver"></property>
+        <!-- 添加spring security 标签支持：sec -->
+        <property name="additionalDialects">
+            <set>
+                <bean class="org.thymeleaf.extras.springsecurity5.dialect.SpringSecurityDialect" />
+            </set>
+        </property>
     </bean>
 
     <!--配置上传解析器

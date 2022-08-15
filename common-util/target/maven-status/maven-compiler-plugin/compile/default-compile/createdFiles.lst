@@ -1,4 +1,5 @@
 com\jack\base\BaseServiceImpl.class
+com\jack\interceptor\LoginInterceptor.class
 com\jack\base\BaseDao.class
 com\jack\base\BaseController.class
 com\jack\result\ResultCodeEnum.class

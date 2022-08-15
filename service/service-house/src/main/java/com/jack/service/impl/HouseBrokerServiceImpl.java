@@ -30,7 +30,7 @@ public class HouseBrokerServiceImpl extends BaseServiceImpl<HouseBroker> impleme
     }
 
     @Override
-    public List<HouseBroker> findListByHouseId(Long houseId) {
-        return houseBrokerDao.findListByHouseId(houseId);
+    public List<HouseBroker> findListByHouseId(Long id) {
+        return houseBrokerDao.findListByHouseId(id);
     }
 }

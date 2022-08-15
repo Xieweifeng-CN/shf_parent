@@ -6,5 +6,6 @@ import com.jack.entity.Community;
 import java.util.List;
 
 public interface CommunityDao extends BaseDao<Community> {
+    @Override
     List<Community> findAll();
 }

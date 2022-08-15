@@ -6,12 +6,18 @@ import com.jack.util.CastUtil;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Map;
 
 @Transactional
 public abstract class BaseServiceImpl<T> implements BaseService<T> {
 
     protected abstract BaseDao<T> getEntityDao();
+
+    @Override
+    public List<T> findAll() {
+        return getEntityDao().findAll();
+    }
 
     @Override
     public Integer insert(T t) {

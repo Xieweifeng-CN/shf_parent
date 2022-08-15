@@ -1,4 +1,7 @@
+com\jack\service\UserInfoService.class
+com\jack\service\UserFollowService.class
 com\jack\service\HouseBrokerService.class
+com\jack\service\PermissionService.class
 com\jack\service\CommunityService.class
 com\jack\service\HouseImageService.class
 com\jack\service\HouseService.class

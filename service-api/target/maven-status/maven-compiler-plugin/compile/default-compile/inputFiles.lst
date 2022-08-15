@@ -3,6 +3,9 @@ D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\RoleServic
 D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\AdminService.java
 D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\HouseBrokerService.java
 D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\HouseUserService.java
+D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\PermissionService.java
 D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\DictService.java
+D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\UserFollowService.java
 D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\CommunityService.java
 D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\HouseService.java
+D:\Java_project\shf_parent\service-api\src\main\java\com\jack\service\UserInfoService.java

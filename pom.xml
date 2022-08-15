@@ -15,6 +15,7 @@
         <module>service/service-acl</module>
         <module>web</module>
         <module>service/service-house</module>
+        <module>service/service-user</module>
     </modules>
 
     <!--父工程的打包方式需要是pom-->

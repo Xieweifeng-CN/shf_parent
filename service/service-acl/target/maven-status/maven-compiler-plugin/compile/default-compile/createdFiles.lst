@@ -1,4 +1,9 @@
 com\jack\dao\AdminDao.class
-com\jack\dao\RoleDao.class
+com\jack\helper\PermissionHelper.class
+com\jack\dao\RolePermissionDao.class
 com\jack\service\impl\RoleServiceImpl.class
+com\jack\dao\AdminRoleDao.class
+com\jack\service\impl\PermissionServiceImpl.class
 com\jack\service\impl\AdminServiceImpl.class
+com\jack\dao\RoleDao.class
+com\jack\dao\PermissionDao.class

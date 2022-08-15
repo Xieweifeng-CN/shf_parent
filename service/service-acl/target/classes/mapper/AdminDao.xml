@@ -53,14 +53,19 @@
         where id = #{id}
     </update>
 
-    <select id="getById" resultType="Admin">
+    <select id="getById" resultType="com.jack.entity.Admin">
         select *
         from acl_admin
         where id = #{id}
     </select>
 
+    <select id="findAll" resultType="com.jack.entity.Admin">
+        select *
+        from acl_admin
+        where is_deleted=0
+    </select>
 
-    <select id="findPage" resultType="Admin">
+    <select id="findPage" resultType="com.jack.entity.Admin">
         select *
         from acl_admin
         <where>
@@ -83,4 +88,12 @@
         </where>
         order by id desc
     </select>
+
+    <select id="getByUsername" resultType="com.jack.entity.Admin">
+        select *
+        from acl_admin
+        where username = #{username}
+        and is_deleted = 0
+    </select>
+
 </mapper>

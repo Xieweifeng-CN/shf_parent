@@ -1,4 +1,9 @@
 D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\service\impl\AdminServiceImpl.java
+D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\service\impl\PermissionServiceImpl.java
 D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\dao\RoleDao.java
+D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\dao\PermissionDao.java
+D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\helper\PermissionHelper.java
 D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\dao\AdminDao.java
+D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\dao\AdminRoleDao.java
+D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\dao\RolePermissionDao.java
 D:\Java_project\shf_parent\service\service-acl\src\main\java\com\jack\service\impl\RoleServiceImpl.java

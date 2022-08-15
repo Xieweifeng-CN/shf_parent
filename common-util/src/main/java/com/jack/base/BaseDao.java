@@ -3,12 +3,17 @@ package com.jack.base;
 import com.github.pagehelper.Page;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Map;
 
 public interface BaseDao<T> {
     /**
+     * 查找所有
+     */
+    List<T> findAll();
+
+    /**
      * 保存一个实体
-     * @param t
      */
     Integer insert(T t);
 
@@ -20,7 +25,6 @@ public interface BaseDao<T> {
 
     /**
      * 更新一个实体
-     * @param t
      */
     Integer update(T t);
 

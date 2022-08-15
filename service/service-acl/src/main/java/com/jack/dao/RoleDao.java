@@ -8,5 +8,6 @@ import java.util.List;
 
 @Repository
 public interface RoleDao extends BaseDao<Role> {
+    @Override
     List<Role> findAll();
 }
